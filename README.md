@@ -3,5 +3,8 @@ Heart Failure detection using python(Machine Learning).Where one  will be able t
 ![decision tree](https://user-images.githubusercontent.com/57230287/152739614-cdba9063-ae29-4edc-9ad1-2743aa23f773.JPG)
 <br>
 <br>
+<br>
+<br>
+<br>
 
 ![meta-chart](https://user-images.githubusercontent.com/57230287/152739744-c886d086-349c-4498-9cfc-ecf9709a9873.png)
