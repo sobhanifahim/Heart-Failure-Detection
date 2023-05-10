@@ -78,8 +78,8 @@ dt.fit(X_train,y_train)
 
 y_pred=dt.predict(X_test)
 
-score=accuracy_score(y_test,y_pred)*100
-print("Accuracy using random forest: ", round(score,1),"%")
+score1=accuracy_score(y_test,y_pred)*100
+print("Accuracy using random forest: ", round(score1,1),"%")
 
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
@@ -97,8 +97,8 @@ dt.fit(X_train,y_train)
 
 y_pred=dt.predict(X_test)
 
-score=accuracy_score(y_test,y_pred)*100
-print("Accuracy using KNeighbours: ", round(score,1),"%")
+score2=accuracy_score(y_test,y_pred)*100
+print("Accuracy using KNeighbours: ", round(score2,1),"%")
 
 from sklearn.neural_network import MLPClassifier
 
@@ -112,8 +112,8 @@ dt.fit(X_train,y_train)
 
 y_pred=dt.predict(X_test)
 
-score=accuracy_score(y_test,y_pred)*100
-print("Accuracy using MLP Neural Network: ", round(score,1),"%")
+score3=accuracy_score(y_test,y_pred)*100
+print("Accuracy using MLP Neural Network: ", round(score3,1),"%")
 
 from sklearn.naive_bayes import GaussianNB
 
@@ -127,8 +127,8 @@ dt.fit(X_train,y_train)
 
 y_pred=dt.predict(X_test)
 
-score=accuracy_score(y_test,y_pred)*100
-print("Accuracy using Naive Bayes: ", round(score,1),"%")
+score4=accuracy_score(y_test,y_pred)*100
+print("Accuracy using Naive Bayes: ", round(score4,1),"%")
 
 from sklearn.svm import SVC
 
@@ -142,8 +142,8 @@ dt.fit(X_train,y_train)
 
 y_pred=dt.predict(X_test)
 
-score=accuracy_score(y_test,y_pred)*100
-print("Accuracy using SVM: ", round(score,1),"%")
+score5=accuracy_score(y_test,y_pred)*100
+print("Accuracy using SVM: ", round(score5,1),"%")
 
 from sklearn.linear_model import LogisticRegression
 
@@ -157,8 +157,8 @@ dt.fit(X_train,y_train)
 
 y_pred=dt.predict(X_test)
 
-score=accuracy_score(y_test,y_pred)*100
-print("Accuracy using Logistic Regression: ", round(score,1),"%")
+score6=accuracy_score(y_test,y_pred)*100
+print("Accuracy using Logistic Regression: ", round(score6,1),"%")
 
 from sklearn.linear_model import SGDClassifier
 
@@ -172,5 +172,5 @@ dt.fit(X_train,y_train)
 
 y_pred=dt.predict(X_test)
 
-score=accuracy_score(y_test,y_pred)*100
-print("Accuracy using SGD: ", round(score,1),"%")
+score7=accuracy_score(y_test,y_pred)*100
+print("Accuracy using SGD: ", round(score7,1),"%")
